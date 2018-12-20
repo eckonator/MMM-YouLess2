@@ -99,7 +99,7 @@ Module.register("MMM-YouLess2", {
 			this.powerUsage = data.pwr;
 			this.loaded = true;
 
-			jQuery("#YouLess2Gauge").gaugeMeter({
+			jQuery("#" + this.config.gaugeUniqueId).gaugeMeter({
 				percent: ((this.powerUsage / this.config.totalGauge) * 100)
 			});
 
