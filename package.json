@@ -1,0 +1,28 @@
+{
+  "name": "mmm-youless2",
+  "version": "0.1.0",
+  "description": "MagicMirrorModule-YouLess2, retrieves usage information from YouLess energy monitor (http://youless.nl)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.t3cube.de:markus/MMM-YouLess2.git"
+  },
+  "keywords": [
+    "youless\u001b[Hmagi\u001b[C\u001b[F"
+  ],
+  "author": "M. Eckert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eckonator/MMM-YouLess2/issues"
+  },
+  "homepage": "https://github.com/eckonator/MMM-YouLess2#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
